@@ -7,9 +7,6 @@ while True:
         computer_choice = random.choice(choices)
         person_choice = input("Choose btn Rock,Paper or Scissors").capitalize()
         
-        #print("Person_choice:", person_choice)
-        #print("Computer_choice:", computer_choice)
-        
         if person_choice == computer_choice:
             print("Person_choice:", person_choice)
             print("Computer_choice:", computer_choice)
