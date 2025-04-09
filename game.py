@@ -62,7 +62,7 @@ while True:
         
         
         else:
-            print("Invalid choice.Please choose between Rock,Paper or Scissors")
+            print("Invalid.Please choose between Rock,Paper or Scissors")
     
         play_again = input("Do you want to play another round?(yes/no): ").lower()
         if play_again != "yes":
