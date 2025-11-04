@@ -5,7 +5,7 @@ while True:
         choices = ["Rock","Paper","Scissors"]
         
         computer_choice = random.choice(choices)
-        person_choice = input("Choose btn Rock,Paper or Scissors").capitalize()
+        person_choice = input("Choose between Rock,Paper or Scissors: ").capitalize()
         
         if person_choice == computer_choice:
             print("Person_choice:", person_choice)
@@ -63,7 +63,7 @@ while True:
     
         play_again = input("Do you want to play another round?(yes/no): ").lower()
         if play_again != "yes":
-            print("Thanks for playing!🙂")
+            print("Thank you for playing!🙂")
             break 
 
     except NameError as e:
